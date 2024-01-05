@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+    display: flex;
+}
+.para,.para2{
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+.left,.right{
+      flex: 1;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+.right{
+    background-color: aliceblue;
+}
